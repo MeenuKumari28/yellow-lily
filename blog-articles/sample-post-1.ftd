@@ -1,0 +1,105 @@
+-- import: meenukumari28.github.io/yellow-lily/common
+-- import: meenukumari28.github.io/yellow-lily as blog
+-- import: meenukumari28.github.io/yellow-lily/blog-authors/patrica as author
+
+-- common.post-meta meta: Blogs
+post-image: $assets.files.assets.blog2.jpg
+post-url: blog-articles/sample-post-1/
+
+Eos libero natus est minima laudantium dolor est minima sit amet.
+
+-- common.post-meta meta1: Lorem ipsum dolor sit amet
+author: $author.patrica
+timestamp: March 1
+post-url: /blog-articles/sample-post-1/
+
+-- common.post-meta meta2: Eos libero natus est minima laudantium
+tag: Lorem ipsum
+author: $author.patrica
+timestamp: May 18, 6 min
+post-image: $assets.files.assets.blog2.jpg
+post-url: blog-articles/sample-post-1/
+
+
+
+-- my-ds.page:
+sidebar: false
+full-width: true
+
+-- blog.post:
+meta: $meta1
+
+-- ds.image:
+src: $assets.files.assets.blog2.jpg
+caption: Design Thinking
+
+-- ds.markdown:
+
+Lorem ipsum dolor sit amet. Est voluptatem esse ea repellat facere ut itaque
+labore ex quaerat error et distinctio reiciendis? Quo praesentium sapiente vel
+soluta assumenda et omnis doloremque est beatae voluptatem! 
+
+- Working remotely as a digital nomad in Honduras
+
+- Working remotely as a digital nomad in Honduras
+
+- Working remotely as a digital nomad in Honduras
+
+Ad quam tenetur est repellendus dicta vel voluptas omnis ut alias galisum! In
+laborum animi eum repellat ullam non temporibus delectus.Eos libero natus est
+minima laudantium hic dolor maxime et necessitatibus voluptatem. Sed
+accusantium magnam sed earum voluptatum quo mollitia voluptatem quo provident
+aliquid. Ad quam tenetur est repellendus dicta vel voluptas omnis ut alias
+galisum! In laborum animi eum repellat ullam non temporibus delectus.Eos libero
+natus est minima laudantium hic dolor maxime et necessitatibus voluptatem. Sed
+accusantium magnam sed earum voluptatum quo mollitia voluptatem quo provident
+aliquid.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+`Activities in Roatan`
+
+Ad quam tenetur est repellendus dicta vel voluptas omnis ut alias galisum! In
+laborum animi eum repellat ullam non temporibus delectus.Eos libero natus est
+minima laudantium hic dolor maxime et necessitatibus voluptatem. Sed
+accusantium magnam sed earum voluptatum quo mollitia voluptatem quo provident
+aliquid. Ad quam tenetur est repellendus dicta vel voluptas omnis ut alias
+galisum! 
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+- In laborum animi eum repellat ullam non temporibus delectus.
+
+In laborum animi eum repellat ullam non temporibus delectus.Eos libero
+natus est minima laudantium hic dolor maxime et necessitatibus voluptatem. Sed
+accusantium magnam sed earum voluptatum quo mollitia voluptatem quo provident
+aliquid.
+
+-- blog.share: Share with love!
+
+-- blog.posts: Some more blogs!
+
+-- blog.post-card:
+post-data: $meta2
+
+-- blog.post-card:
+post-data: $meta2
+
+-- blog.post-card:
+post-data: $meta2
+
+-- end: blog.posts
+
+-- end: blog.post
+
+-- end: my-ds.page

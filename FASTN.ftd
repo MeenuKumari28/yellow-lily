@@ -4,16 +4,19 @@
 favicon: /-/meenukumari28.github.io/yellow-lily/favicon.ico
 
 
--- fastn.dependency: fastn-community.github.io/doc-site as ds
--- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/midnight-rush as ds
+-- fastn.dependency: meenukumari28.github.io/yellow-lily-cs as cs
 
 -- fastn.auto-import: ds
+-- fastn.auto-import: cs
 -- fastn.auto-import: meenukumari28.github.io/yellow-lily/FASTN/my-ds
 -- fastn.auto-import: meenukumari28.github.io/yellow-lily/assets
 
 
 -- fastn.sitemap:
 
-# Home Page: /
+# Blog: /
 
-- Page with Right Sidebar: /sidebar/
+## Sample Post: /blog-articles/sample-post-1/
+
+# About: /
