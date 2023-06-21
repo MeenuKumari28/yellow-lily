@@ -143,7 +143,7 @@ link: $featured-post-card-desktop.url
 style: medium
 
 -- ftd.text:
-if: { $featured-post-card-desktop.body != NULL }
+if: { featured-post-card-desktop.body != NULL }
 role: $inherited.types.copy-regular
 color: $inherited.colors.text
 
@@ -193,7 +193,7 @@ color: $inherited.colors.text-strong
 link: $featured-post-card-mobile.url
 
 -- ftd.text:
-if: { $featured-post-card-mobile.body != NULL }
+if: { featured-post-card-mobile.body != NULL }
 role: $inherited.types.copy-regular
 color: $inherited.colors.text
 text-align: center
@@ -471,6 +471,7 @@ color: $inherited.colors.text
 
 
 
+
 -- component search-card:
 
 -- ftd.column:
@@ -634,6 +635,7 @@ style if { topics-detail.mouse-in }: semi-bold
 -- end: ftd.row
 
 -- end: topics-detail
+
 
 
 
