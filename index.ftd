@@ -51,6 +51,12 @@ post-data: $sample-post-1.meta2
 
 -- component featured-post:
 common.post-meta post-data:
+optional string cta-primary: 
+optional string cta-primary-url:
+optional string cta-secondary: 
+optional string cta-secondary-url:
+optional string info:
+optional string link:
 
 -- ftd.column:
 width: fill-container
@@ -62,6 +68,12 @@ image: $featured-post.post-data.post-image
 url: $featured-post.post-data.post-url
 tag: $featured-post.post-data.tag
 body: $featured-post.post-data.body
+info: $featured-post.info
+cta-primary: $featured-post.cta-primary
+cta-primary-url: $featured-post.cta-primary-url
+cta-secondary: $featured-post.cta-secondary
+cta-secondary-url: $featured-post.cta-secondary-url
+link: $featured-post.link
 
 -- end: ftd.column
 
@@ -84,6 +96,14 @@ optional ftd.image-src image:
 optional string url:
 optional string tag:
 optional string body:
+optional string info:
+optional string cta-primary: 
+optional string cta-primary-url:
+optional string cta-secondary: 
+optional string cta-secondary-url:
+optional string url:
+optional boolean $cta-hover: false
+
 
 -- ftd.column:
 width: fill-container
@@ -648,6 +668,9 @@ style if { topics-detail.mouse-in }: semi-bold
 -- component post:
 common.post-meta meta:
 children container:
+optional string previous-cta-txt: Back to blog
+optional string previous-cta-url:
+optional string share-txt: Share
 optional boolean sidebar: false
 ftd.ui list right-sidebar:
 
@@ -680,6 +703,9 @@ common.author-meta author:
 optional string timestamp:
 optional body body:
 children container:
+optional string url:
+optional string tag:
+optional ftd.image-src image:
 
 -- ftd.column:
 
