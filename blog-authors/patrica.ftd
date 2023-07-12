@@ -1,0 +1,23 @@
+-- import: meenukumari28.github.io/yellow-lily/common 
+-- import: meenukumari28.github.io/yellow-lily as blog
+
+-- common.author-meta patrica: Patrica AVA
+profile: UI Designer
+bio-url: blog-authors/patrica/
+image: $assets.files.assets.avatar.svg
+company: XVY Pvt. Ltd.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. 
+
+
+
+
+
+-- my-ds.page: 
+sidebar: false
+
+-- blog.author-bio: 
+author: $patrica
+
+-- end: my-ds.page
